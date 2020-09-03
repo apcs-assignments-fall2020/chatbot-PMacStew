@@ -10,11 +10,11 @@ public class MyMain {
         System.out.println("Nice to meet you " + name + "!");
         System.out.print("What is your favorite TV show? ");
         String tvShow = scan.next();
-        System.out.println("My favorite TV show is Riverdale,  but " + tvShow + " is awesome too.");
+        System.out.println("My favorite TV show is Designated Survivor, but " + tvShow + " is awesome too.");
         System.out.print("What is your favorite type of animal? ");
         String animal = scan.next();
         System.out.println("I agree. " + animal + "s are pretty cool.");
-        System.out.print("How many siblings do you have? ");
+        System.out.print("How many siblings do you have (enter a digit)? ");
         String sibling = scan.next();
         int siblings = Integer.parseInt(sibling);
         if (siblings == 0)
